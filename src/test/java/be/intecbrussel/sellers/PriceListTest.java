@@ -33,6 +33,10 @@ class PriceListTest {
         assertAll(
                 () -> assertEquals(1, priceList.getRocketPrice()),
                 () -> assertEquals(1.5, priceList.getMagnumPrice(Magnum.MagnumType.ROMANTICSTRAWBERRIES)),
+                () -> assertEquals(1.5, priceList.getMagnumPrice(Magnum.MagnumType.ALPINENUTS)),
+                () -> assertEquals(1.1, priceList.getMagnumPrice(Magnum.MagnumType.MILKCHOCOLATE)),
+                () -> assertEquals(1.1, priceList.getMagnumPrice(Magnum.MagnumType.WHITECHOCOLATE)),
+                () -> assertEquals(1.1, priceList.getMagnumPrice(Magnum.MagnumType.BLACKCHOCOLATE)),
                 () -> assertEquals(1, priceList.getBallPrice())
         );
     }

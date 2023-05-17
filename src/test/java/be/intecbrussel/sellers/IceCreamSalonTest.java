@@ -44,9 +44,13 @@ class IceCreamSalonTest {
     @Test
     @DisplayName("IceCreamSalon - getProfit()")
     void shouldReturnEqualsWhenGettingTotalProfit() {
-        iceCreamSalon.orderIceRocket();
-        iceCreamSalon.orderIceRocket();
-        assertEquals(0.4, iceCreamSalon.getProfit());
+        iceCreamSalon.orderIceRocket(); //0.20 profit
+        iceCreamSalon.orderMagnum(Magnum.MagnumType.MILKCHOCOLATE); // 0.01 profit
+        iceCreamSalon.orderCone(new Cone.Flavor[]{Cone.Flavor.VANILLA}); // 0.25 profit per scoop
+
+        double result = Math.floor((iceCreamSalon.getProfit()) * 100) / 100;
+
+        assertEquals(0.46, result);
     }
 
     @Test
