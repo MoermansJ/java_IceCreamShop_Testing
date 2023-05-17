@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27bf122a-f0ae-4851-96da-6a3a249d3033" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/ConeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/IceRocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamCarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamSalonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/PriceListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/StockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamSalonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamSalonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/StockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/StockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,53 @@
       <recent name="be.intecbrussel.eatables" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceListTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters">
+  <component name="RunManager" selected="JUnit.IceCreamCarTest.shouldReturnNotNullWhenOrderingConeWithOneScoopOfVanilla">
+    <configuration name="ConeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_IceCreamShop_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.ConeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamCarTest.shouldReturnNotNullWhenOrderingConeWithOneScoopOfVanilla" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_IceCreamShop_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.sellers" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.sellers.IceCreamCarTest" />
+      <option name="METHOD_NAME" value="shouldReturnNotNullWhenOrderingConeWithOneScoopOfVanilla" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceRocketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_IceCreamShop_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.IceRocketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MagnumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_IceCreamShop_Testing" />
       <extension name="coverage">
@@ -92,63 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagnumTest.shouldReturnNotEqualsWhenCreatingInstanceWithNoArgsConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_IceCreamShop_Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.intecbrussel.sellers.*" />
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.sellers" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.sellers.PriceListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceListTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_IceCreamShop_Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.intecbrussel.sellers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.sellers" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.sellers.PriceListTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsAllWhenCallingAllGettersAndSetters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_IceCreamShop_Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.intecbrussel.sellers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.sellers" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.sellers.StockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_IceCreamShop_Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.intecbrussel.sellers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.sellers" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.sellers.StockTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsAllWhenCallingAllGettersAndSetters" />
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.MagnumTest" />
+      <option name="METHOD_NAME" value="shouldReturnNotEqualsWhenCreatingInstanceWithNoArgsConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriceListTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters" />
-        <item itemvalue="JUnit.PriceListTest" />
-        <item itemvalue="JUnit.StockTest" />
-        <item itemvalue="JUnit.StockTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters" />
+        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnNotNullWhenOrderingConeWithOneScoopOfVanilla" />
         <item itemvalue="JUnit.MagnumTest" />
+        <item itemvalue="JUnit.MagnumTest.shouldReturnNotEqualsWhenCreatingInstanceWithNoArgsConstructor" />
+        <item itemvalue="JUnit.IceRocketTest" />
+        <item itemvalue="JUnit.ConeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,28 +169,37 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684244144526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684316358540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnEqualsWhenOrderingConeWithOneScoopOfVanillaWithoutStock.ic" NAME="IceCreamCarTest.shouldReturnEqualsWhenOrderingConeWithOneScoopOfVanillaWithoutStock Coverage Results" MODIFIED="1684237082399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684243172503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684315901652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684242478083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldNotNullWhenOrderingMagnumWithoutStock.ic" NAME="IceCreamCarTest.shouldNotNullWhenOrderingMagnumWithoutStock Coverage Results" MODIFIED="1684312190410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnEqualsWhenOrderingConeWithOneScoopOfVanilla.ic" NAME="IceCreamCarTest.shouldReturnEqualsWhenOrderingConeWithOneScoopOfVanilla Coverage Results" MODIFIED="1684315271603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684316375273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceRocketTest.ic" NAME="IceRocketTest Coverage Results" MODIFIED="1684242488491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceRocketTest.ic" NAME="IceRocketTest Coverage Results" MODIFIED="1684316380372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.eatables.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$ConeTest_shouldReturnEqualsWhenComparingIdenticalObjects.ic" NAME="ConeTest.shouldReturnEqualsWhenComparingIdenticalObjects Coverage Results" MODIFIED="1684154495231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684243590200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamSalonTest_shouldReturnEqualsWhenOrderingMagnum.ic" NAME="IceCreamSalonTest.shouldReturnEqualsWhenOrderingMagnum Coverage Results" MODIFIED="1684315448985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684316579729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest.ic" NAME="IceCreamCarTest Coverage Results" MODIFIED="1684243572240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest.ic" NAME="IceCreamCarTest Coverage Results" MODIFIED="1684315907137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnEqualsWhenGettingTotalProfit.ic" NAME="IceCreamCarTest.shouldReturnEqualsWhenGettingTotalProfit Coverage Results" MODIFIED="1684155371247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -206,10 +208,13 @@
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$PriceListTest_shouldReturnEqualsAllWhenCallingAllGettersAndSetters.ic" NAME="PriceListTest.shouldReturnEqualsAllWhenCallingAllGettersAndSetters Coverage Results" MODIFIED="1684244757063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$PriceListTest.ic" NAME="PriceListTest Coverage Results" MODIFIED="1684244473146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$PriceListTest.ic" NAME="PriceListTest Coverage Results" MODIFIED="1684316350205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnNotEqualsWhenOrderingMagnum.ic" NAME="IceCreamCarTest.shouldReturnNotEqualsWhenOrderingMagnum Coverage Results" MODIFIED="1684243565726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnNullWhenOrderingConeWithOneScoopOfVanillaWithoutBallsStock.ic" NAME="IceCreamCarTest.shouldReturnNullWhenOrderingConeWithOneScoopOfVanillaWithoutBallsStock Coverage Results" MODIFIED="1684314926668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.sellers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_IceCreamShop_Testing$IceCreamCarTest_shouldReturnNotEqualsWhenOrderingIceRocket.ic" NAME="IceCreamCarTest.shouldReturnNotEqualsWhenOrderingIceRocket Coverage Results" MODIFIED="1684237956027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

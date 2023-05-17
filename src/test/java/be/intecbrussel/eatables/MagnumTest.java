@@ -34,34 +34,32 @@ class MagnumTest {
 
 
     //constructors
-    //no-args
     @Test
     @DisplayName("Magnum - no args constructor")
-    void shouldReturnNotEqualsWhenCreatingInstanceWithNoArgsConstructor() {
+    void shouldReturnNotNullWhenCreatingInstanceWithNoArgsConstructor() {
         //when
         Magnum magnum = new Magnum();
 
         //then
-        assertNotEquals(magnum, null);
+        assertNotNull(magnum);
     }
 
     //all args
     @Test
     @DisplayName("Magnum - all args constructor")
-    void shouldReturnNotEqualsWhenCreatingInstanceWithAllArgsConstructor() {
+    void shouldReturnNotNullWhenCreatingInstanceWithAllArgsConstructor() {
         //when
         Magnum magnum = new Magnum(Magnum.MagnumType.ALPINENUTS);
 
         //then
-        assertNotEquals(magnum, null);
+        assertNotNull(magnum);
     }
 
 
     //getters & setters
-    //getType()
     @Test
     @DisplayName("Magnum - getType()")
-    void shouldReturnEqualsWhenGettingType() {
+    void shouldReturnEqualsWhenGettingMagnumType() {
         //given
         Magnum magnum = new Magnum();
 
@@ -71,7 +69,6 @@ class MagnumTest {
 
 
     //custom methods
-    //eat()
     @Test
     @DisplayName("Magnum - eat()")
     void shouldReturnEqualsWhenComparingMethodPrint() {

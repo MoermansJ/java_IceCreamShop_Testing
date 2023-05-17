@@ -12,6 +12,7 @@ class StockTest {
         Stock stock = new Stock(1, 1, 1, 1);
         assertNotEquals(null, stock);
     }
+    
 
     @Test
     @DisplayName("Stock - getters & setters")
